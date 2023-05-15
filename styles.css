@@ -1,0 +1,47 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+.todo-container form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.todo-container input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.todo-container button {
+  padding: 5px 10px;
+}
+
+.todo-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.todo-container li input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.todo-container li.completed span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+span {
+    padding: 10px;
+}
